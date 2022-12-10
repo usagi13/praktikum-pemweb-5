@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <br />
-            <h2 align="center">DATA MAHASISWA UNIVERSITAS ABAL-ABAL</h2><br />
+            <h2 align="center">DATA MAHASISWA UNIVERSITAS ABAL-ABAL</h2><br/>
             <select name="datamaha" id="datamaha" multiple class="form-control selectpicker">
             <?php
             include('koneksi.php');
@@ -39,8 +39,8 @@
             <input type="hidden" name="data_mahasiswa" id="data_mahasiswa" />
             <div style="clear:both"></div>
             <br />
-            <div class="table-responsive">
-                <table class="table table-striped table-bordered">
+            <div>
+                <table align="center" border="2px">
                     <thead>
                         <tr>
                             <th>NIM</th>
